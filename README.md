@@ -128,7 +128,7 @@ classDiagram
     Alert --> Severity
     Incident "1" o-- "*" Alert
     Incident --> Analyst
-    Incident +-- Builder
+    Builder ..> Incident : builds
     DetectionRule ..> Alert : creates
 ```
 
