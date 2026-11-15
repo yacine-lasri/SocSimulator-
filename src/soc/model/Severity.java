@@ -1,9 +1,9 @@
 package soc.model;
 
 public enum Severity {
-    Low,
-    Medium,
-    High,
-    Critical,
+    LOW,
+    MEDIUM,
+    HIGH,
+    CRITICAL,
 
 }

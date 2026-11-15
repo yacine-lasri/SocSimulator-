@@ -3,17 +3,25 @@ package soc.model;
 import java.time.LocalDateTime;
 
 public class NetworkEvent extends SecurityEvent{
-       private int port;
-       private String protocol;
+       private final int port;
+       private final String protocol;
 
-    protected NetworkEvent(int port,String protocol,long id, LocalDateTime timestamp, String sourceip) {
+    public NetworkEvent(int port,String protocol,long id, LocalDateTime timestamp, String sourceip) {
         super(id, timestamp, sourceip);
         this.port=port;
         this.protocol=protocol;
     }
 
     @Override
-    String describe() {
-        return "";
+    public String describe() {
+        return "Network event from "+getSourceIp()+" on port "+port+" ("+protocol+")";
+    }
+
+    public int getPort() {
+        return port;
+    }
+
+    public String getProtocol() {
+        return protocol;
     }
 }

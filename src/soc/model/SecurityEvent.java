@@ -35,13 +35,13 @@ public abstract class SecurityEvent {
         return id;
     }
 
-    public LocalDateTime getTimestamp() {
+    public LocalDateTime getTimeStamp() {
         return timeStamp;
     }
 
-    public String getSourceip() {
+    public String getSourceIp() {
         return sourceIp;
     }
-    abstract String describe();
+   public abstract String describe();
 
 }
