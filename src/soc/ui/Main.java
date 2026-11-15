@@ -1,4 +1,4 @@
-package soc.UI;
+package soc.ui;
 
 import soc.model.AuthEvent;
 import soc.model.NetworkEvent;
