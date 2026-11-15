@@ -8,10 +8,10 @@ A SOC is the team that watches a company's security. This application simulates 
 
 ## Team
 
-| Member | Responsibility |
-|--------|----------------|
-| Yassine Lasri | _to fill in_ |
-| _partner name_ | _to fill in_ |
+| Member 
+| Yassine Lasri 
+| SAAD FAKIR
+| Nour Smene|
 
 ## Status
 
