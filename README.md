@@ -8,10 +8,10 @@ A SOC is the team that watches a company's security. This application simulates 
 
 ## Team
 
-| Member 
-| Yassine Lasri 
-| SAAD FAKIR
-| Nour Smene|
+ Members:
+Yassine Lasri 
+ SAAD FAKIR
+Nour Smene
 
 ## Status
 
@@ -169,6 +169,5 @@ After an alert: `HIGH` or `CRITICAL` automatically opens an incident, or attache
 | Threads and concurrency | Producers, workers and `BlockingQueue` in `soc.sim` | Planned |
 | JavaFX (3 screens) | `soc.ui.fx` | Planned |
 
-_Update the "Where it is used" column with the real class and method names as each part is written._
 
 ##
